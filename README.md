@@ -4,6 +4,10 @@ Nama:Fiona Deandra Liani
 
 NIM:2609116053
 
+# Flowchart
+<img width="551" height="436" alt="Screenshot 2026-09-12 191050" src="https://github.com/user-attachments/assets/7ab3f972-c109-4003-8970-ce680ea205c2" />
+
+
 # Program
 1. Input variabel yang berisi data dari tanaman. (nama tanaman, jenis indoor/outdoor, status sudah/belum disiram).
 <img width="753" height="197" alt="Screenshot 2026-09-12 103443" src="https://github.com/user-attachments/assets/549ea0c0-d629-4365-9357-045dc5c5bf9b" />
