@@ -5,28 +5,49 @@ Nama:Fiona Deandra Liani
 NIM:2609116053
 
 # Program
-1. Input variabel yang berisi data dari tanaman. (nama tanaman, jenis indoor/outdoor, status sudah/belum disiram)
+1. Input variabel yang berisi data dari tanaman. (nama tanaman, jenis indoor/outdoor, status sudah/belum disiram).
 <img width="753" height="197" alt="Screenshot 2026-09-12 103443" src="https://github.com/user-attachments/assets/549ea0c0-d629-4365-9357-045dc5c5bf9b" />
 
-2. Ketik while true untuk melakukan perulangan pada program
+2. Ketik while true untuk melakukan perulangan pada program.
    
-3. Lalu print kata selamat datang dan beberapa list dari program seperti (lihat daftar tanaman,tambah data tanaman, hapus data tanaman, update status tanaman, dan pemberhentian dari perulangan jika sudah selesai)
+3. Lalu print kata selamat datang dan beberapa list dari program seperti (lihat daftar tanaman,tambah data tanaman, hapus data tanaman, update status tanaman, dan pemberhentian dari perulangan jika sudah selesai).
    
-4. Tambahkan variabel "pilihan" yang isinya adalah input untuk mengambil pilihan angka dari pengguna
+4. Tambahkan variabel "pilihan" yang isinya adalah input untuk mengambil pilihan angka dari user.
 
 <img width="756" height="142" alt="Screenshot 2026-09-12 103528" src="https://github.com/user-attachments/assets/66480c03-6a8f-430e-9be1-943b005a2e3f" />
 
-5. Tambahkan if pilihan==1, atau jika pengguna mengetik 1 makan akan menampilkan list dari daftar tanaman
+5. Tambahkan if pilihan==1, atau jika user mengetik 1 makan akan menampilkan list dari daftar tanaman.
    
-6. Lalu print "daftar tanaman" sebagai judulnya, lalu memakai no =1 untuk menampilkan variabel dalam urutan angka, contohnya
-   1. Lihat daftar tanaman
-   2. tambah data tanaman baru
-   3. .....
-setelah itu memakai "for tanaman in daftar_tanaman" untuk mengambil data dari daftar tanaman secara bergantian.
+6. Lalu print "daftar tanaman" sebagai judulnya, lalu memakai no =1 untuk menampilkan variabel dalam urutan angka, contohnya:
+   
+   (1) Lihat daftar tanaman
+   
+   (2) tambah data tanaman baru
+   
+   (3) .....
+   
+7. setelah itu memakai "for tanaman in daftar_tanaman" untuk mengambil data dari daftar tanaman secara bergantian. Pakai print yang berisi f-string untuk menampilkan 3 data yang berbeda. Lalu gunakan "no = no + 1" untuk menambah nomor urut di perulangan selanjutnya.
+
 <img width="753" height="108" alt="Screenshot 2026-09-12 113720" src="https://github.com/user-attachments/assets/c11e17fc-5e5c-4721-b23a-970f45d79cfc" />
 
+8. Untuk elif pilihan == 2 atau saat user mengetik 2, tambahkan variabel yang berisi input dari nama, jenis, dan status tanaman untuk menambah data tanaman yang baru.
+   
+9. Lalu tambah variabel “tanaman_baru” yang berisi format dari tanaman yang akan diinput. Tambahkan "daftar_tanaman.append(tanaman_baru)" untuk memasukkan list tanaman baru kebagian paling akhir dari list daftar tanaman. Setelah itu print menggunakan f-string untuk menggabungkan format dari isi variabel “tanaman_baru” tadi.
+
 <img width="756" height="174" alt="Screenshot 2026-09-12 113730" src="https://github.com/user-attachments/assets/1b7684ae-0cff-4dcd-96d2-f69296b59363" />
+
+10. Untuk elif pilihan == 3 atau saat user mengetik tiga, tambahkan variabel bernama "nomor" yang berisi inputan int untuk memasukkan nomor dari daftar_tanaman yang ingin dihapus. Lalu untuk penggunaan variabel "index_hapus" untuk mengubah nomor pilihan pada penomoran biasa menjadi index di python (dimulai dari angka 0).
+    
+11.  Variabel yang berisi "daftar_tanaman.pop(index_hapus)" berguna untuk menghapus satu list data tanaman sekaligus pada posisi index tersebut. 
+
 <img width="754" height="209" alt="Screenshot 2026-09-12 113741" src="https://github.com/user-attachments/assets/29125087-19f2-4d27-beba-d29023e3d3a4" />
+
+12. Untuk elif pilihan == 4 atau saat user mengetik empat, berisi variabel int untuk menginput nomor dari list tanaman yang ingin diubah status siramnnya. Lalu untuk penggunaan variabel "index_update" untuk mengubah nomor pilihan pada penomoran biasa menjadi index di python (dimulai dari angka 0).
+    
+13. daftar_tanaman[indeks_update][2], kurung pertama [indeks_update] adalah untuk memilih tanaman ke berapa, lalu untuk kurung kedua [2] adalah untuk memilih status penyiramannya karena status penyiraman berada di indeks nomor 2.
+
+14. Lalu if-else untuk mengecek statusnya, jika saat ini "belum disiram" maka akan berubah menjadi "sudah disiram", dan juga sebaliknya.
+  
 <img width="754" height="280" alt="Screenshot 2026-09-12 113755" src="https://github.com/user-attachments/assets/261b5f50-cf6c-47a0-b7d1-bed6481b5fb5" />
 
 15. Tambahkan if pilihan == 5, lalu print "Program selesai" untuk mengakhiri perulangan pada sistem.
