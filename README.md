@@ -57,6 +57,9 @@ NIM:2609116053
 15. Tambahkan if pilihan == 5, lalu print "Program selesai" untuk mengakhiri perulangan pada sistem.
 <img width="749" height="59" alt="Screenshot 2026-09-12 114108" src="https://github.com/user-attachments/assets/c0b53fee-64c2-4423-98f3-1900914d4806" />
 
+16. Jika user mengetik angka selain dari 1-5, maka hasilnya program akan mengalami pengulangan
+<img width="914" height="62" alt="Screenshot 2026-09-12 191429" src="https://github.com/user-attachments/assets/c58a8814-d589-424c-bd1a-7253032e7702" />
+
 
 
 
@@ -77,6 +80,10 @@ NIM:2609116053
 
 5. Perulangan berhenti
 <img width="755" height="136" alt="Screenshot 2026-09-12 101449" src="https://github.com/user-attachments/assets/c20d5d69-82fd-4a7f-8f39-8537fbe2f107" />
+
+6. jika mengetik selain 1-5
+<img width="959" height="237" alt="Screenshot 2026-09-12 191451" src="https://github.com/user-attachments/assets/b7a9925d-9cac-4201-9893-06205438869b" />
+
 
 
 
